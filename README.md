@@ -2,7 +2,7 @@ Deployment Link = https://product-dashboard-henna.vercel.app/
 
                                              Product Dashboard
 
-## This project is a React application for managing and displaying a list of products. It features a dashboard that includes search, filtering, and pagination functionalities. The project is set up using Vite for build tooling and includes configuration for testing with Jest and Vitest.
+### This project is a React application for managing and displaying a list of products. It features a dashboard that includes search, filtering, and pagination functionalities. The project is set up using Vite for build tooling and includes configuration for testing with Jest and Vitest.
 
 ## Getting Started
 
@@ -10,37 +10,37 @@ Prerequisites:
 
 1. Ensure you have Node.js and npm installed. You can download and install them from nodejs.org.
 
-### Setup
+## Setup
 
 Clone the repository:
 
 1. git clone https://github.com/sanket622/product-dashboard.git
 2. cd product-dashboard
 
-### Install dependencies:
+## Install dependencies:
 
 Run the following command to install the necessary dependencies: 
 
 1. npm install @testing-library/react @testing-library/jest-dom vitest --save-dev
 
-### Configuration:
+## Configuration:
 
 1. No additional configuration is required. By default, the project is set up to run on http://localhost:5173/.
 
-### Running the Project
+## Running the Project
 
 To start the development server and run the project locally 
 
-1. npm run dev
-2. Open your browser and navigate to http://localhost:5173/ to view the application.
+=> npm run dev
+=> Open your browser and navigate to http://localhost:5173/ to view the application.
 
-# Testing
+## Testing
 
 1. The project uses Jest and Vitest for testing. To run tests, use the following command:
 
 => npm test
 
-### Key Components
+## Key Components
 
 1. ProductContext (context/ProductContext.js): Provides global state management for product data, search term, filters, and pagination.
 2. Functions: fetchProducts(): Fetches product data from an API and updates state.
