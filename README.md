@@ -6,13 +6,14 @@ DEPLOYMENT LINK = https://product-dashboard-henna.vercel.app/
 
 
 
-- This project is a React application for managing and displaying a list of products. It features a dashboard that includes search, filtering, and pagination functionalities. The project is set up using Vite for build tooling and includes configuration for testing with Jest and Vitest.
+- This project is a React application for managing and displaying a list of products. It features a dashboard   that includes search, filtering, and pagination functionalities. The project is set up using Vite for build tooling and includes configuration for testing with Jest and Vitest.
 
 ## Getting Started
 
 Prerequisites:
 
 - Ensure you have Node.js and npm installed. You can download and install them from nodejs.org.
+- Download [Allow CORS: Access-Control-Allow-Origin] => Browser extension to handle CORS issues during local   development.
 
 ## Setup
 
