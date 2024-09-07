@@ -20,7 +20,7 @@ const mockContextValue = {
 
 describe('ProductList Component', () => {
   beforeEach(() => {
-    mockSetSort.mockClear(); // Clear previous calls before each test
+    mockSetSort.mockClear(); 
   });
 
   test('calls setSort on column header click', () => {
@@ -33,17 +33,17 @@ describe('ProductList Component', () => {
     const titleHeader = screen.getByText('Title');
     fireEvent.click(titleHeader);
 
-    // Instead of checking for a specific object, check if setSort was called with a function
+    
     expect(mockSetSort).toHaveBeenCalled();
     expect(typeof mockSetSort.mock.calls[0][0]).toBe('function');
 
-    // To further test, you can simulate calling the function
+  
     const setSortCallArgument = mockSetSort.mock.calls[0][0];
     const result = setSortCallArgument({ by: 'title', order: 'asc' });
 
     expect(result).toEqual({
       by: 'title',
-      order: 'desc', // Expecting 'desc' since it toggles from 'asc'
+      order: 'desc',
     });
   });
 
