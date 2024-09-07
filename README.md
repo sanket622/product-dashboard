@@ -1,8 +1,12 @@
 Deployment Link = https://product-dashboard-henna.vercel.app/
 
-                                             Product Dashboard
 
-### This project is a React application for managing and displaying a list of products. It features a dashboard that includes search, filtering, and pagination functionalities. The project is set up using Vite for build tooling and includes configuration for testing with Jest and Vitest.
+
+###                                        PRODUCT DASHBOARD
+
+
+
+=> This project is a React application for managing and displaying a list of products. It features a dashboard that includes search, filtering, and pagination functionalities. The project is set up using Vite for build tooling and includes configuration for testing with Jest and Vitest.
 
 ## Getting Started
 
