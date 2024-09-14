@@ -1,5 +1,7 @@
 DEPLOYMENT LINK = https://product-dashboard-henna.vercel.app/
 
+- (pre-requisite -> Allow CORS in Browser).
+
 
 
 ### PRODUCT DASHBOARD
