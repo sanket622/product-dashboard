@@ -21,9 +21,6 @@ const ProductDetail = ({ product }) => {
     <p style={{ margin: '5px 0', fontSize: '1rem', color: '#666' }}>
       Popularity: {product.popularity}
     </p>
-    <p style={{ margin: '5px 0', fontSize: '1rem', color: '#666' }}>
-      Description: {product.description || 'No description available'}
-    </p>
     <br></br>
     <Pagination />
   </div>
